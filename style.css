@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+#logo{
+     margin-top: 56px;
+     margin-left: 52px;
+}
+#menuprincipal{
+    background: url(imagens/fundomenu.svg);
+    background-repeat: none;
+    color: aliceblue;
+    min-height: 500px;
+    width: 100%;
+   
+}
+
+#title-description{
+    margin-left: 150px;
+    margin-top: 55px;
+    line-height: 51.4px;
+}
+#title-description-2{
+    margin-left: 150px;
+    margin-top:30px ;
+    padding-bottom: 100px;
+    line-height: 30px;
+   
+}
+#menuinformativo{
+    height: 170px;
+    background-color: #eaece5;
+}
+#icone{
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menuvideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#title-video{
+    color: #247BA0;
+    margin: 50px 25px 0px 0px;
+}
+#description-video{
+    margin:0px 25px 50px 0px ;
+}
+#video{
+    margin: 50px 25px 50px 100px;
+}
+#secaocarrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+#title-carrossel{
+    line-height: 48px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color:#EAECE5;
+}
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+}
+.card{
+    margin-left: 50px;
+}
+#seta-esquerda{
+    display: none;
+}
+#bruna{
+    display: none;
+}
+.seta{
+    margin-top: 65px;
+    cursor: pointer;
+}
+.seta:hover{
+    transform: translateX(7px);
+    transition-duration: 0.7s;
+}
+#secaoformulario{
+    text-align: center;
+}
+#title-form{
+    font-size: 25px;
+    margin: 25px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+button{
+    width: 250px;
+    height: 40px;
+    background-color: #247BA0;
+    border: 0px;
+    border-radius: 5px;
+    margin: 15px 15px 50px 15px;
+    color: #EAECE5;
+    cursor: pointer;
+   
+}
+
+button:hover{
+    background-color: #1c607d;
+    color: white;
+    transform: translateY(7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px  #161d3ac9;
+}
